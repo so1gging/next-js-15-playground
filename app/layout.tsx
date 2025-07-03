@@ -1,20 +1,20 @@
-import type {Metadata} from 'next'
-import {Geist, Geist_Mono} from 'next/font/google'
-import './globals.css'
+import type { Metadata } from "next"
+import { Geist, Geist_Mono } from "next/font/google"
+import "./globals.css"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
-  subset'latin't,in"]
+  subsets: ["latin"]
 })
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
-  subsets: ['latin'],
+  subsets: ["latin"]
 })
 
 export const metadata: Metadata = {
-  title: 'Next.js 15 Playground',
-  description: 'description.',
+  title: "Next.js 15 Playground",
+  description: "description."
 }
 
 export default function RootLayout({
